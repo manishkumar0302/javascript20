@@ -1,0 +1,61 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+@import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: "Rubik", sans-serif;
+}
+
+.header {
+  position: relative;
+  height: auto;
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+
+  &::before {
+    position: absolute;
+    display: block;
+    content: "";
+    z-index: 1;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: transparent url(./bg.jpg) no-repeat center/cover;
+  }
+}
+
+.text {
+  position: relative;
+  z-index: 2;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  text-shadow: .5rem 1rem 1rem rgba(0,0,0,0.75);
+}
+
+.h1 {
+  margin: 0 0 .5rem;
+  padding: 0;
+  font-size: 3rem;
+}
+
+.h2 {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
