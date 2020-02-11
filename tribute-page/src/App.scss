@@ -1,6 +1,9 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import url("https://fonts.googleapis.com/css?family=Rubik:300,300i,400,400i,500,500i,700,700i,900,900i&display=swap");
 
+$sm: "only screen and (min-width: 40rem)";
+$link: #204572;
+
 *,
 *::after,
 *::before {
@@ -45,11 +48,11 @@ body {
   padding: 1rem;
   color: white;
   text-align: center;
-  text-shadow: .5rem 1rem 1rem rgba(0,0,0,0.75);
+  text-shadow: 0.5rem 1rem 1rem rgba(0, 0, 0, 0.75);
 }
 
 .h1 {
-  margin: 0 0 .5rem;
+  margin: 0 0 0.5rem;
   padding: 0;
   font-size: 3rem;
 }
@@ -58,4 +61,37 @@ body {
   margin: 0;
   padding: 0;
   font-size: 2rem;
+}
+
+.main {
+  padding: 0 1rem;
+  margin: 0 auto;
+  width: 100%;
+
+  @media #{$sm} {
+    max-width: 35rem;
+  }
+}
+
+.blockquote {
+  margin: 2rem 0;
+  padding: 0;
+  font-size: 1.5rem;
+  font-style: italic;
+
+  @media #{$sm} {
+    border: 0.1rem solid grey;
+    border-radius: 0.4rem;
+    padding: 2rem;
+  }
+}
+
+.cite {
+  display: block;
+  margin: 1rem 0 0;
+}
+
+a {
+  color: $link;
+  text-decoration: none;
 }
