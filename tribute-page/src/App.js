@@ -587,7 +587,7 @@ const App = () => {
             retina_detect: true
           }}
         />
-        <span className="message">Love Live Johnny Bravo!</span>
+        <span className="message">Long Live Johnny Bravo!</span>
         <span className="author">
           Weaved with <span className="heartbeat">❤</span> by&nbsp;
           <a
