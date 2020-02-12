@@ -23,7 +23,7 @@ const App = () => {
             actually still around, it's very iconic now, 15, 16 years later."
           </span>
           <cite className="cite">
-            <strong>Writer/Director:</strong>{" "}
+            <strong>&#45;&#45;Writer/Director:</strong>{" "}
             <a
               href="https://en.wikipedia.org/wiki/Butch_Hartman"
               target="_blank"

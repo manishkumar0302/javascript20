@@ -78,6 +78,12 @@ body {
   padding: 0;
   font-size: 1.5rem;
   font-style: italic;
+  line-height: 1.45;
+  transition: all 0.4s ease;
+
+  &:hover {
+    box-shadow: 0 0 1rem 0.5rem rgba(0, 0, 0, 0.15);
+  }
 
   @media #{$sm} {
     border: 0.1rem solid grey;
