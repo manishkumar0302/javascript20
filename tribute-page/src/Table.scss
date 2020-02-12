@@ -2,45 +2,49 @@
   width: 100%;
   max-width: 100%;
   margin-bottom: 1rem;
+
+  th,
+  td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #eceeef;
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #eceeef;
+  }
+
+  tbody + tbody {
+    border-top: 2px solid #eceeef;
+  }
+
+  .table {
+    background-color: #fff;
+  }
 }
 
-.table th,
-.table td {
-  padding: 0.75rem;
-  vertical-align: top;
-  border-top: 1px solid #eceeef;
-}
-
-.table thead th {
-  vertical-align: bottom;
-  border-bottom: 2px solid #eceeef;
-}
-
-.table tbody + tbody {
-  border-top: 2px solid #eceeef;
-}
-
-.table .table {
-  background-color: #fff;
-}
-
-.table-sm th,
-.table-sm td {
-  padding: 0.3rem;
+.table-sm {
+  th,
+  td {
+    padding: 0.3rem;
+  }
 }
 
 .table-bordered {
   border: 1px solid #eceeef;
-}
 
-.table-bordered th,
-.table-bordered td {
-  border: 1px solid #eceeef;
-}
+  th,
+  td {
+    border: 1px solid #eceeef;
+  }
 
-.table-bordered thead th,
-.table-bordered thead td {
-  border-bottom-width: 2px;
+  thead {
+    th,
+    td {
+      border-bottom-width: 2px;
+    }
+  }
 }
 
 .table-striped tbody tr:nth-of-type(odd) {
@@ -51,79 +55,114 @@
   background-color: rgba(0, 0, 0, 0.075);
 }
 
-.table-active,
-.table-active > th,
-.table-active > td {
+.table-active {
   background-color: rgba(0, 0, 0, 0.075);
+
+  > {
+    th,
+    td {
+      background-color: rgba(0, 0, 0, 0.075);
+    }
+  }
 }
 
 .table-hover .table-active:hover {
   background-color: rgba(0, 0, 0, 0.075);
+
+  > {
+    td,
+    th {
+      background-color: rgba(0, 0, 0, 0.075);
+    }
+  }
 }
 
-.table-hover .table-active:hover > td,
-.table-hover .table-active:hover > th {
-  background-color: rgba(0, 0, 0, 0.075);
-}
-
-.table-success,
-.table-success > th,
-.table-success > td {
+.table-success {
   background-color: #dff0d8;
+
+  > {
+    th,
+    td {
+      background-color: #dff0d8;
+    }
+  }
 }
 
 .table-hover .table-success:hover {
   background-color: #d0e9c6;
+
+  > {
+    td,
+    th {
+      background-color: #d0e9c6;
+    }
+  }
 }
 
-.table-hover .table-success:hover > td,
-.table-hover .table-success:hover > th {
-  background-color: #d0e9c6;
-}
-
-.table-info,
-.table-info > th,
-.table-info > td {
+.table-info {
   background-color: #d9edf7;
+
+  > {
+    th,
+    td {
+      background-color: #d9edf7;
+    }
+  }
 }
 
 .table-hover .table-info:hover {
   background-color: #c4e3f3;
+
+  > {
+    td,
+    th {
+      background-color: #c4e3f3;
+    }
+  }
 }
 
-.table-hover .table-info:hover > td,
-.table-hover .table-info:hover > th {
-  background-color: #c4e3f3;
-}
-
-.table-warning,
-.table-warning > th,
-.table-warning > td {
+.table-warning {
   background-color: #fcf8e3;
+
+  > {
+    th,
+    td {
+      background-color: #fcf8e3;
+    }
+  }
 }
 
 .table-hover .table-warning:hover {
   background-color: #faf2cc;
+
+  > {
+    td,
+    th {
+      background-color: #faf2cc;
+    }
+  }
 }
 
-.table-hover .table-warning:hover > td,
-.table-hover .table-warning:hover > th {
-  background-color: #faf2cc;
-}
-
-.table-danger,
-.table-danger > th,
-.table-danger > td {
+.table-danger {
   background-color: #f2dede;
+
+  > {
+    th,
+    td {
+      background-color: #f2dede;
+    }
+  }
 }
 
 .table-hover .table-danger:hover {
   background-color: #ebcccc;
-}
 
-.table-hover .table-danger:hover > td,
-.table-hover .table-danger:hover > th {
-  background-color: #ebcccc;
+  > {
+    td,
+    th {
+      background-color: #ebcccc;
+    }
+  }
 }
 
 .thead-inverse th {
@@ -139,16 +178,16 @@
 .table-inverse {
   color: #fff;
   background-color: #292b2c;
-}
 
-.table-inverse th,
-.table-inverse td,
-.table-inverse thead th {
-  border-color: #fff;
-}
+  th,
+  td,
+  thead th {
+    border-color: #fff;
+  }
 
-.table-inverse.table-bordered {
-  border: 0;
+  &.table-bordered {
+    border: 0;
+  }
 }
 
 .table-responsive {
@@ -156,8 +195,8 @@
   width: 100%;
   overflow-x: auto;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-}
 
-.table-responsive.table-bordered {
-  border: 0;
+  &.table-bordered {
+    border: 0;
+  }
 }
