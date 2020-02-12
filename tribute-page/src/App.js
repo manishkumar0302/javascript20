@@ -307,8 +307,8 @@ const App = () => {
           director on Cartoon Network's original series The Marvelous
           Misadventures of Flapjack.
         </p>
-        <h3>SPIN-OFFS</h3>
-        <h2>JBVO: YOUR ALL REQUEST CARTOON SHOW</h2>
+        <h2>SPIN-OFFS</h2>
+        <h3>JBVO: YOUR ALL REQUEST CARTOON SHOW</h3>
         <p>
           JBVO: Your All Request Cartoon Show is a short-lived programming block
           that aired Sundays on Cartoon Network from April 2, 2000, to summer of
