@@ -132,14 +132,15 @@ p {
 }
 
 .footer {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   flex-direction: column;
   padding: 5rem 1rem;
-  color: white;
-  background: black;
+  color: black;
+  background: #eee;
 }
 
 .message {
