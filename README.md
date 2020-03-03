@@ -5,3 +5,4 @@
 - Project 3 / Custom Video Player: [View Demo](https://inspiring-shannon-a204f7.netlify.com/)
 - Project 4 / Exchange Rates: [View Demo](https://friendly-leavitt-9189a8.netlify.com/)
 - Project 5 / DOM Methods: [View Demo](https://tender-goodall-f25b3d.netlify.com/)
+- Project 6 / Mobile Menu and Modal: [View Demo](https://epic-agnesi-d625c6.netlify.com/)
