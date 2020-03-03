@@ -1,0 +1,15 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.selected {
+  border-color: green;
+}
+
+.occupied {
+  border-color: red;
+}
