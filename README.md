@@ -12,3 +12,4 @@
 - Project 10 / Music Player: [View Demo](https://romantic-goldwasser-32cdb5.netlify.com/)
 - Project 11 / Infinite Scroll: [View Demo](https://flamboyant-galileo-afa9a7.netlify.com/)
 - Project 12 / Typing Game: [View Demo](https://agitated-meitner-e91230.netlify.com/)
+- Project 13 / Speech Reader: [View Demo](https://reverent-brahmagupta-6ec6e2.netlify.com/)
