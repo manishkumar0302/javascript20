@@ -9,3 +9,4 @@
 - Project 7 / Guess Word: [View Demo](https://sad-chandrasekhar-f7a127.netlify.com/)
 - Project 8 / Meal Finder: [View Demo](https://mystifying-hoover-15ee03.netlify.com/)
 - Project 9 / Expense Tracker: [View Demo](https://practical-goldwasser-323a6f.netlify.com/)
+- Project 10 / Music Player: [View Demo](https://romantic-goldwasser-32cdb5.netlify.com/)
