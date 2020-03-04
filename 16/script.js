@@ -11,7 +11,7 @@ const breathAnimation = () => {
   container.className = "grow";
   logo.setAttribute(
     "src",
-    "https://media1.giphy.com/media/fQYF7GSkhaQVzwau1N/giphy.gif"
+    "https://www.allinahealth.org/-/media/allina-health/content/healthy-set-go/womansun-478849023-682x408.jpg"
   );
 
   setTimeout(() => {
@@ -20,7 +20,7 @@ const breathAnimation = () => {
     container.className = "hold";
     logo.setAttribute(
       "src",
-      "https://media.giphy.com/media/5nonrz8FH1wHxRAL9p/giphy.gif"
+      "https://www.centracare.com/images/blog/Dont-Hold-Your-Breath-Post.jpg"
     );
 
     setTimeout(() => {
@@ -29,7 +29,7 @@ const breathAnimation = () => {
       container.className = "shrink";
       logo.setAttribute(
         "src",
-        "https://media.giphy.com/media/QfKaMrW9GCSFJY4euG/giphy.gif"
+        "https://placekitten.com/402/400"
       );
     }, holdTime);
   }, breatheTime);
