@@ -72,14 +72,16 @@ speechSynthesis.addEventListener("voiceschanged", getVoices);
 toggleBtn.addEventListener("click", () =>
   document.getElementById("text-box").classList.toggle("hide")
 );
-voicesSelect.addEventListener("change", () => setVoice);
+voicesSelect.addEventListener("change", (e) => {
+  setVoice(e);
+});
 readBtn.addEventListener(
   "click",
   () => (setTextMessage(textarea.value), speakText())
 );
 text.addEventListener(
   "change",
-  () => (setTextMessage(textarea.value), speakText())
+  (e) => (setTextMessage(e.target.value), speakText())
 );
 randomBtn.addEventListener("click", () => getWords());
 
