@@ -7,3 +7,4 @@
 - Project 5 / DOM Methods: [View Demo](https://tender-goodall-f25b3d.netlify.com/)
 - Project 6 / Mobile Menu and Modal: [View Demo](https://epic-agnesi-d625c6.netlify.com/)
 - Project 7 / Guess Word: [View Demo](https://sad-chandrasekhar-f7a127.netlify.com/)
+- Project 8 / Meal Finder: [View Demo](https://mystifying-hoover-15ee03.netlify.com/)
