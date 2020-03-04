@@ -29,7 +29,7 @@ const breathAnimation = () => {
       container.className = "shrink";
       logo.setAttribute(
         "src",
-        "https://placekitten.com/402/400"
+        "https://i0.wp.com/post.greatist.com/wp-content/uploads/sites/2/2019/08/GRT-woman-happy-sunglasses-sun-bright-colors-1296x728-header-1296x728.jpg?w=1155&h=1528"
       );
     }, holdTime);
   }, breatheTime);

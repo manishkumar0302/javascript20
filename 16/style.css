@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+* {
+  transition: all 0.4s ease;
+}
+
 #app {
   display: flex;
   flex-direction: column;
@@ -13,7 +17,6 @@
   align-content: center;
   align-items: center;
   height: 100vh;
-  transition: all 0.4s ease;
 }
 
 #text {
@@ -35,6 +38,7 @@
   border-radius: 50%;
   object-fit: cover;
   background: #eee;
+  transition: all 2s ease;
 }
 
 .grow #logo {
