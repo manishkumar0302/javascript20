@@ -11,7 +11,7 @@ const breathAnimation = () => {
   container.className = "grow";
   logo.setAttribute(
     "src",
-    "https://media1.giphy.com/media/fQYF7GSkhaQVzwau1N/giphy.gif?cid=790b7611d282e94b3aeea86ead3f82eca05331a0262b4f13&rid=giphy.gif"
+    "https://media1.giphy.com/media/fQYF7GSkhaQVzwau1N/giphy.gif"
   );
 
   setTimeout(() => {
@@ -20,7 +20,7 @@ const breathAnimation = () => {
     container.className = "hold";
     logo.setAttribute(
       "src",
-      "https://media2.giphy.com/media/5nonrz8FH1wHxRAL9p/200.webp?cid=790b76116b604a361dcdb74477bad85ccfcb8387458095af&rid=200.webp"
+      "https://media.giphy.com/media/5nonrz8FH1wHxRAL9p/giphy.gif"
     );
 
     setTimeout(() => {
@@ -29,7 +29,7 @@ const breathAnimation = () => {
       container.className = "shrink";
       logo.setAttribute(
         "src",
-        "https://media3.giphy.com/media/QfKaMrW9GCSFJY4euG/200.webp?cid=790b76116b604a361dcdb74477bad85ccfcb8387458095af&rid=200.webp"
+        "https://media.giphy.com/media/QfKaMrW9GCSFJY4euG/giphy.gif"
       );
     }, holdTime);
   }, breatheTime);
