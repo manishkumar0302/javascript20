@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>14</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <h1>
+    Memory Cards
+  </h1>
+  <hr>
+  <button id="clear">- Clear Cards</button>
+  <button id="show">+ Add New Card</button>
+  <hr>
+  <div id="cards"></div>
+  <hr>
+  <nav>
+    <button id="prev">Previous</button>
+    <span id="current"></span>
+    <button id="next">Next</button>
+  </nav>
+  <hr>
+  <div id="modal" class="hide modal">
+    <h1>
+      Add New Card
+    </h1>
+    <button id="hide">Close</button>
+    <div>
+      <label for="question">Question</label>
+      <textarea id="question" placeholder="Enter question..."></textarea>
+    </div>
+    <div>
+      <label for="answer">Answer</label>
+      <textarea id="answer" placeholder="Enter Answer..."></textarea>
+    </div>
+    <button id="add-card">+ Add Card</button>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
