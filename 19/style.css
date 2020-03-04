@@ -1,0 +1,33 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.wrong {
+  color: red;
+}
+
+.right {
+  color: green;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  display: flex;
+}
+
+li p {
+  margin: 0;
+}
+
+[draggable]:hover {
+  cursor: pointer;
+}
