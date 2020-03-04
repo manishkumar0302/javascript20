@@ -6,3 +6,4 @@
 - Project 4 / Exchange Rates: [View Demo](https://friendly-leavitt-9189a8.netlify.com/)
 - Project 5 / DOM Methods: [View Demo](https://tender-goodall-f25b3d.netlify.com/)
 - Project 6 / Mobile Menu and Modal: [View Demo](https://epic-agnesi-d625c6.netlify.com/)
+- Project 7 / Guess Word: [View Demo](https://sad-chandrasekhar-f7a127.netlify.com/)
