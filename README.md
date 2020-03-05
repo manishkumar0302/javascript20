@@ -19,3 +19,4 @@
 - Project 17 / Year Countdown: [View Demo](https://romantic-euclid-a6d80e.netlify.com/)
 - Project 18 / Guess Number: [View Demo](https://optimistic-blackwell-2c0af0.netlify.com/)
 - Project 19 / Sort Listing: [View Demo](https://competent-bartik-56a584.netlify.com/)
+- Project 20 / Breakout Game: [View Demo](https://lucid-allen-227b4d.netlify.com/)
