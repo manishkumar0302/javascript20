@@ -1,4 +1,4 @@
-# JavaScript
+# JavaScript20
 
 | Symbol | Description                                        |
 | ------ | -------------------------------------------------- |
